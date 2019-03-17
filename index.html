@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Survey Form</title>
+</head>
+<body>
+	<main id="main">
+		<header id="header">
+			<h1>Survey Form for freeCodeCamp</h1>
+			<h4>Let us know how we can improve freeCodeCamp</h4>
+		</header>
+			<div class="container">
+				<div class="label">
+					<label for="name">Name :</label>
+			    </div>
+				<div class="input">
+					<input type="text" name="name" id="name" placeholder="Enter your full name">
+			    </div>
+			    <div class="label">
+					<label for="email">Email :</label>
+				</div>
+				<div class="input">
+					<input type="email" name="email" id="email" placeholder="Enter your email">
+				</div>
+				<div class="label">
+					<label for="age">Age :</label>
+				</div>
+				<div class="input">
+					<input type="number" name="age" id="age" placeholder="Enter your age">
+				</div>
+				<div class="label">
+					<label for="photo">Upload photo :</label>
+				</div>
+				<div class="input">
+					<input type="file" accept="image/*" name="photo" id="photo">
+				</div>
+				<div class="label">
+					<label for="resume">Upload resume :</label>
+				</div>
+				<div class="input">
+					<input type="file" accept=".pdf" name="email" id="email">
+				</div>
+				<div class="label">
+					<label for="resume">Your current role :</label>
+				</div>
+				<div class="input">
+					<select id="role-select">
+					    <option value="student">Student</option>
+					    <option value="full-job">Full time job</option>
+					    <option value="part-job">Part time job</option>
+					    <option value="self">Self-employed</option>
+					</select>
+				</div>
+				<div class="label">
+					<p>How likely is that you would recommend freeCodeCamp to a friend?</p>
+				</div>
+				<div class="input">
+					<div class="radio">
+						<input type="radio" name="opt" id="r1">
+						<label for="r1">Definitely</label>
+					</div>
+					<div class="radio">
+						<input type="radio" name="opt" id="r2">
+						<label for="r2">Maybe</label>
+					</div>
+					<div class="radio">
+						<input type="radio" name="opt" id="r3">
+						<label for="r3">Not sure</label>
+					</div>
+				</div>
+				<div class="label">
+					<p>Things that should be improved in the future?</p>
+				</div>
+				<div class="input">
+					<div class="checkbox">
+						<input type="checkbox" name="opt1" id="r1">
+						<label for="r1">Front end projects</label>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="opt2" id="r2">
+						<label for="r2">Back end projects</label>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="opt3" id="r3">
+						<label for="r3">Challenges</label>
+					</div>
+				</div>
+				<div class="button">
+					<input type="button" value="Submit form">
+				</div>
+			</div>
+	</main>
+</body>
+</html>
